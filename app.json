@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Kulay Cart",
+    "slug": "kulay-cart",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#FFFFFF",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.jesniemagaling.kulaycart",
+      "versionCode": 1,
+      "softwareKeyboardLayoutMode": "resize",
+      "adaptiveIcon": {
+        "backgroundColor": "#176448",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-system-ui"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "088fb6ca-a3c3-455b-acd8-e58941e1f580"
+      }
+    },
+    "owner": "jesniemagaling"
+  }
+}
